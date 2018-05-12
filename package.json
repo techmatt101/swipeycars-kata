@@ -1,0 +1,23 @@
+{
+  "name": "swipeycars",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "watch": "tsc --watch",
+    "host": "browser-sync start --config bs-config.js",
+    "dev": "concurrently --kill-others \"npm run watch\" \"npm run host\""
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jest": "^22.2.3",
+    "browser-sync": "^2.23.7",
+    "concurrently": "^3.5.1",
+    "jest": "^22.4.3",
+    "ts-jest": "^22.4.4",
+    "typescript": "^2.8.3"
+  }
+}
