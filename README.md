@@ -1,6 +1,6 @@
 # swipeycars-kata
 
-##Tasks
+## Tasks
 - Prevent player from leaving the road.
 - Add an on coming vehicle in the first lane every 5 seconds.
 - Randomly spawn traffic in different lanes every 3 seconds.
